@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+/* ball style */
+#ball {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+}
+
+/* rod style */
+#rod1,
+#rod2 {
+  position: fixed;
+  width: 200px;
+  height: 20px;
+  left: 50%;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#rod1 {
+  top: 0px;
+}
+
+#rod2 {
+  bottom: 0px;
+}
